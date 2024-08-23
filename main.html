@@ -1,16 +1,20 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roman Numeral Converter</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-   </script>
+    <h1>Roman Numeral Converter</h1>
+    <form id="converterForm">
+        <label for="number">Enter a number (0 - 100000):</label>
+        <input type="number" id="number" name="number" min="0" max="100000" required>
+        <button type="submit">Convert</button>
+    </form>
+    <p id="result">Your Roman numeral will appear here.</p>
 
+    <script src="script.js"></script>
 </body>
-
 </html>
